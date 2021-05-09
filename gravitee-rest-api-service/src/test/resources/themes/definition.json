@@ -17,7 +17,7 @@
           "default": "#28444F",
           "value": "#28444F"
         },
-        {
+          {
           "name": "--gv-theme-color",
           "description": "Primary color",
           "type": "color",
