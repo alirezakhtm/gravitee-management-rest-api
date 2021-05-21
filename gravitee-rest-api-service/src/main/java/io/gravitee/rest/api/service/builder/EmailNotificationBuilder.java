@@ -203,6 +203,7 @@ public class EmailNotificationBuilder {
             "passwordReset.html",
             "Password reset - ${user.displayName}"
         ),
+        // Add a new template
         TEMPLATES_FOR_ACTION_GENERIC_MESSAGE(ActionHook.GENERIC_MESSAGE, "genericMessage.html", "${messageSubject}"),
         TEMPLATES_FOR_ALERT_CUSTOMER_HTTP_STATUS(
             AlertHook.CUSTOMER_HTTP_STATUS,

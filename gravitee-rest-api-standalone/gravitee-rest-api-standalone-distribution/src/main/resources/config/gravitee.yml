@@ -170,6 +170,9 @@ services:
     enabled: true
     cron: "0 */5 * * * *"
 
+  subscription:
+    notificationDays: 190,45,30
+
 
 # Analytics repository is used to store all reporting, metrics, health-checks stored by gateway instances
 # This is the default configuration using Elasticsearch
